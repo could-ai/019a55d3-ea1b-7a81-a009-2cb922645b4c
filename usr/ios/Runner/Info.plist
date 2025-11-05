@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Couldai User App</string>
+	<string>Ollexa Browser</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -44,6 +44,38 @@
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	
+	<!-- توضیحات مجوزها برای iOS -->
+	<key>NSCameraUsageDescription</key>
+	<string>این برنامه به دوربین نیاز دارد تا بتوانید از ویژگی‌های تصویری وب‌سایت استفاده کنید.</string>
+	
+	<key>NSMicrophoneUsageDescription</key>
+	<string>این برنامه به میکروفون نیاز دارد تا بتوانید از ویژگی‌های صوتی وب‌سایت استفاده کنید.</string>
+	
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>این برنامه به موقعیت مکانی شما نیاز دارد تا بتوانید از سرویس‌های مبتنی بر موقعیت استفاده کنید.</string>
+	
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>این برنامه به موقعیت مکانی شما نیاز دارد تا بتوانید از سرویس‌های مبتنی بر موقعیت استفاده کنید.</string>
+	
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>این برنامه به کتابخانه عکس نیاز دارد تا بتوانید تصاویر را آپلود کنید.</string>
+	
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>این برنامه می‌خواهد تصاویر را در کتابخانه عکس ذخیره کند.</string>
+	
+	<!-- اجازه دسترسی به اینترنت -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+	</dict>
+	
+	<!-- پشتیبانی از WebView -->
+	<key>io.flutter.embedded_views_preview</key>
 	<true/>
 </dict>
 </plist>
